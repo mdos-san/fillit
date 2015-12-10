@@ -6,12 +6,12 @@
 /*   By: mdos-san <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/10 17:27:38 by mdos-san          #+#    #+#             */
-/*   Updated: 2015/12/10 17:28:07 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/10 18:32:01 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include "dbl_tab.h"
+#include "fillit.h"
 
 int	init_shape(t_tetri *tet, int fd)
 {

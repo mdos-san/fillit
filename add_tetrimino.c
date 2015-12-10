@@ -6,12 +6,12 @@
 /*   By: mdos-san <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/04 17:20:07 by mdos-san          #+#    #+#             */
-/*   Updated: 2015/12/09 17:22:06 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/10 18:32:01 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include "dbl_tab.h"
+#include "fillit.h"
 
 void	add_tetrimino(char **tab, char shape[5][5], t_pnt o, char c)
 {

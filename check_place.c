@@ -6,12 +6,12 @@
 /*   By: mdos-san <mdos-san@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/07 13:53:50 by mdos-san          #+#    #+#             */
-/*   Updated: 2015/12/10 18:15:40 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/10 18:32:01 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include "dbl_tab.h"
+#include "fillit.h"
 
 static int	fcheck(t_pnt *check, t_pnt *first, t_pnt *i, t_pnt *o)
 {

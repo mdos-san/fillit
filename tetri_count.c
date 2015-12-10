@@ -6,11 +6,11 @@
 /*   By: mdos-san <mdos-san@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/08 11:36:01 by mdos-san          #+#    #+#             */
-/*   Updated: 2015/12/09 14:25:25 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/10 18:32:01 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "dbl_tab.h"
+#include "fillit.h"
 
 int	tetri_count(t_tetri *tet)
 {

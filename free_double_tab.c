@@ -6,12 +6,12 @@
 /*   By: mdos-san <mdos-san@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/07 19:46:09 by mdos-san          #+#    #+#             */
-/*   Updated: 2015/12/07 23:15:16 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/10 18:32:01 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include "dbl_tab.h"
+#include "fillit.h"
 
 void	free_double_tab(char ***atab, int size)
 {

@@ -6,12 +6,12 @@
 /*   By: ajubert <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/08 11:15:11 by ajubert           #+#    #+#             */
-/*   Updated: 2015/12/10 17:32:00 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/10 18:32:01 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include "dbl_tab.h"
+#include "fillit.h"
 
 static int	check_char(char shape[5][5])
 {

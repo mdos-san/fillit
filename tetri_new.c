@@ -6,12 +6,12 @@
 /*   By: mdos-san <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/10 17:32:16 by mdos-san          #+#    #+#             */
-/*   Updated: 2015/12/10 17:32:20 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/10 18:32:01 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include "dbl_tab.h"
+#include "fillit.h"
 
 t_tetri	*tetri_new(char c)
 {

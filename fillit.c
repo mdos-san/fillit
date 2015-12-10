@@ -6,12 +6,12 @@
 /*   By: mdos-san <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/10 17:26:58 by mdos-san          #+#    #+#             */
-/*   Updated: 2015/12/10 17:27:01 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/10 18:32:01 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include "dbl_tab.h"
+#include "fillit.h"
 
 int	fillit(char **tab, int size, t_tetri *tet)
 {

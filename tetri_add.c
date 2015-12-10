@@ -6,11 +6,11 @@
 /*   By: mdos-san <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/10 17:30:27 by mdos-san          #+#    #+#             */
-/*   Updated: 2015/12/10 17:30:29 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/10 18:32:01 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "dbl_tab.h"
+#include "fillit.h"
 
 void	tetri_add(t_tetri *tet)
 {
