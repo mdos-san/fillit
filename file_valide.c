@@ -6,7 +6,7 @@
 /*   By: ajubert <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/08 11:15:11 by ajubert           #+#    #+#             */
-/*   Updated: 2015/12/09 16:26:46 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/10 17:32:00 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,7 @@ static int	check_shape(char shape[5][5])
 	return (0);
 }
 
-int		file_valide(t_tetri *tet)
+int			file_valide(t_tetri *tet)
 {
 	while (tet)
 	{

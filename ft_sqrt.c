@@ -6,11 +6,11 @@
 /*   By: ajubert <ajubert@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/07/13 13:39:02 by ajubert           #+#    #+#             */
-/*   Updated: 2015/12/05 18:28:12 by ajubert          ###   ########.fr       */
+/*   Updated: 2015/12/10 17:27:23 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_sqrt(int nb)
+int	ft_sqrt(int nb)
 {
 	float r;
 

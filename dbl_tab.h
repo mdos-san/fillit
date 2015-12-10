@@ -6,7 +6,7 @@
 /*   By: mdos-san <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/04 17:20:20 by mdos-san          #+#    #+#             */
-/*   Updated: 2015/12/09 17:19:56 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/10 17:26:32 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,8 @@ typedef struct		s_tetri
 char				**create_double_tab(int size, char c);
 void				init_double_tab(char **tab, int size, char c);
 void				display_double_tab(char **tab, int size);
-void				add_tetrimino(char **tab, char shape[5][5], t_pnt o, char c);
-int					check_place(char **tab, char shape[5][5], t_pnt o, int size);
+void				add_tetrimino(char **tab, char sha[5][5], t_pnt o, char c);
+int					check_place(char **tab, char sha[5][5], t_pnt o, int size);
 void				free_double_tab(char ***atab, int size);
 t_tetri				*tetri_new(char c);
 void				tetri_add(t_tetri *tet);
