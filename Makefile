@@ -6,7 +6,7 @@
 #    By: mdos-san <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/10 18:32:34 by mdos-san          #+#    #+#              #
-#    Updated: 2015/12/10 18:32:36 by mdos-san         ###   ########.fr        #
+#    Updated: 2015/12/11 14:10:54 by mdos-san         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ SRC_C=		create_double_tab.c		init_double_tab.c\
 			tetri_count.c			ft_sqrt.c\
 			main.c					file_valide.c
 
-SRC_O=	$(SRC_C:.c=.o)
+SRC_O=		$(SRC_C:.c=.o)
 
 all: libft.a libft.h $(NAME)
 
