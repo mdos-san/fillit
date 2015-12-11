@@ -6,10 +6,11 @@
 /*   By: mdos-san <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/04 17:20:29 by mdos-san          #+#    #+#             */
-/*   Updated: 2015/12/10 18:32:01 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/11 14:14:39 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -17,7 +18,13 @@
 #include "fillit.h"
 #include "libft.h"
 
-int	main(int ac, char **av)
+void	print_error(void)
+{
+	ft_putendl("error");
+	exit(0);
+}
+
+int		main(int ac, char **av)
 {
 	int		fd;
 	char	**tab;
@@ -27,17 +34,11 @@ int	main(int ac, char **av)
 	fd = 0;
 	tet = tetri_new('A');
 	if (ac != 2)
-	{
-		ft_putendl("error");
-		return (0);
-	}
+		print_error();
 	fd = open(av[1], O_RDONLY);
 	init_shape(tet, fd);
 	if (!file_valide(tet))
-	{
-		ft_putendl("error");
-		return (0);
-	}
+		print_error();
 	size = ft_sqrt(tetri_count(tet) * 4);
 	tab = create_double_tab(size, '.');
 	while (fillit(tab, size, tet) == 0)

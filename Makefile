@@ -6,7 +6,7 @@
 #    By: mdos-san <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/10 18:32:34 by mdos-san          #+#    #+#              #
-#    Updated: 2015/12/11 14:10:54 by mdos-san         ###   ########.fr        #
+#    Updated: 2015/12/11 14:15:15 by mdos-san         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,7 +40,7 @@ libft.a:
 	@echo "==========COMPILING LIBFT=========="
 	@echo "===================================\033[0m"
 	make re -C ./libft/
-	cp libft/libft.a .
+	cp ./libft/libft.a .
 	make fclean -C ./libft/
 	
 libft.h:
