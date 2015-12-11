@@ -6,7 +6,7 @@
 /*   By: mdos-san <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/04 17:20:29 by mdos-san          #+#    #+#             */
-/*   Updated: 2015/12/11 14:14:39 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/11 15:18:14 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,13 @@ void	print_error(void)
 	exit(0);
 }
 
+void	end_fillit(char ***tab, int size, int fd)
+{
+	display_double_tab(*tab, size);
+	free_double_tab(tab, size);
+	close(fd);
+}
+
 int		main(int ac, char **av)
 {
 	int		fd;
@@ -36,6 +43,7 @@ int		main(int ac, char **av)
 	if (ac != 2)
 		print_error();
 	fd = open(av[1], O_RDONLY);
+	(fd == -1) ? print_error() : 0;
 	init_shape(tet, fd);
 	if (!file_valide(tet))
 		print_error();
@@ -47,8 +55,6 @@ int		main(int ac, char **av)
 		size++;
 		tab = create_double_tab(size, '.');
 	}
-	display_double_tab(tab, size);
-	free_double_tab(&tab, size);
-	close(fd);
+	end_fillit(&tab, size, fd);
 	return (0);
 }

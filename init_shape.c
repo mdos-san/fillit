@@ -6,7 +6,7 @@
 /*   By: mdos-san <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/10 17:27:38 by mdos-san          #+#    #+#             */
-/*   Updated: 2015/12/10 18:32:01 by mdos-san         ###   ########.fr       */
+/*   Updated: 2015/12/11 15:10:55 by mdos-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int	init_shape(t_tetri *tet, int fd)
 	{
 		while (x < 5)
 		{
-			if (!read(fd, &c, 1))
+			if (read(fd, &c, 1) <= 0)
 				return (0);
 			tet->shape[y][x] = c;
 			x++;
